@@ -133,6 +133,7 @@ display: inline-block;
   color: #FFFFFF;
 }
 
+
 .active-label:not(:last-child) {
   margin-right: 10px;
 }
