@@ -1,2 +1,2 @@
-# cssMemSlider
-# Deploy: https://vera-korzun.github.io/cssMemSlider/cssMemSlider/index.html
+# cssSlider
+#### Deploy: https://vera-korzun.github.io/cssMemSlider/cssMemSlider/index.html
