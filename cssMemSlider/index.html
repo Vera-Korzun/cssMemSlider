@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Forum&family=Roboto:wght@100;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>MemSlider</title>
+  </head>
+  <body>
+    <div class="all">
+      <input checked type="radio" name="respond" id="desktop" />
+      <article id="slider">
+        <input checked type="radio" name="slider" id="switch1" />
+        <input type="radio" name="slider" id="switch2" />
+        <input type="radio" name="slider" id="switch3" />
+        <input type="radio" name="slider" id="switch4" />
+        <input type="radio" name="slider" id="switch5" />
+        <div id="slides">
+          <div id="overflow">
+            <div class="image">
+              <article><img src="welc1.jpg" /></article>
+              <article><img src="welc2.jpg" /></article>
+              <article><img src="welc3.jpg" /></article>
+              <article><img src="welc4.jpg" /></article>
+              <article><img src="welc5.jpg" /></article>
+            </div>
+          </div>
+        </div>
+        <div id="controls">
+          <label for="switch1"></label>
+          <label for="switch2"></label>
+          <label for="switch3"></label>
+          <label for="switch4"></label>
+          <label for="switch5"></label>
+        </div>
+        <div id="control-panel">
+          <div id="description-wrapper">
+            <div id="description">
+              <a class="description-link" href="#"
+                ><p class="description1">Mona Lisa</p></a
+              >
+              <a class="description-link" href="#"
+                ><p class="description2">La Liberté guidant le peuple</p></a
+              >
+              <a class="description-link" href="#"
+                ><p class="description3">La belle ferronnière</p></a
+              >
+              <a class="description-link" href="#"
+                ><p class="description4">Le Radeau de La Méduse</p></a
+              >
+              <a class="description-link" href="#"
+                ><p class="description5">L'Astronome</p></a
+              >
+            </div>
+          </div>
+
+          <div id="active">
+            <label class="active-label" for="switch1"></label>
+            <label class="active-label" for="switch2"></label>
+            <label class="active-label" for="switch3"></label>
+            <label class="active-label" for="switch4"></label>
+            <label class="active-label" for="switch5"></label>
+          </div>
+        </div>
+      </article>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+  <div id="test"></div>
+</html>
